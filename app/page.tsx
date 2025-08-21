@@ -1,9 +1,14 @@
-import { TypingTest } from "./components/TypingTest";
+import Link from 'next/link'
+import React from 'react'
 
-export default function Home() {
+const page = () => {
   return (
     <div>
-      <TypingTest code={""} />
+      <Link href={'/client/arrays-easy/TwoSum'}>
+        go
+      </Link>
     </div>
-  );
+  )
 }
+
+export default page

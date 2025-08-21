@@ -37,7 +37,7 @@ export default function Page() {
       />
 
       <div className="pt-20">
-        <NextButton href="/client/arrays/RemoveDuplicatesfromArray" />
+        <NextButton href="/client/arrays-easy/RemoveElement" />
       </div>
     </div>
   );
